@@ -33,5 +33,5 @@
 
 <hr>
 
-  <h3 align="center">Python - Operators</h2>
+  <h3 align="center">Scipy Tutorial</h2>
 

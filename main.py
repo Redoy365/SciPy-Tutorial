@@ -1,9 +1,13 @@
 import numpy as np
+from scipy.sparse.csgraph import connected_components
 from scipy.sparse import csr_matrix
 
-arr = np.array([[0, 0, 0], [0, 0, 1], [1, 0, 2]])
+arr = np.array([
+  [0, 1, 2],
+  [1, 0, 0],
+  [2, 0, 0]
+])
 
-mat = csr_matrix(arr)
-mat.sum_duplicates()
+newarr = csr_matrix(arr)
 
-print(mat)
+print(connected_components(newarr))
