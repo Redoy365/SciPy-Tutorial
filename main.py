@@ -11,3 +11,5 @@ arr = np.array([
 newarr = csr_matrix(arr)
 
 print(connected_components(newarr))
+
+# some issue fixed !!!
