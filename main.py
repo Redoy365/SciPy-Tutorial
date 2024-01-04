@@ -1,3 +1,4 @@
 from scipy import constants
 
-print(constants.pi)
+print(dir(constants))
+print(len(dir(constants)))
